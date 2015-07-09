@@ -14,9 +14,9 @@ public void startEVM(){
 	//ballotUnit.getcontestingCandidate();
 	//select your contestant
 	ballotUnit.relaseBallot();
+	resultButton.getVotesForIndividual();
 	candidateButton.castYourVote();
 	System.out.println("Total Voters till now : "+totalButton.getTotalVotes());
-	resultButton.getVotesForIndividual();
 	resultButton.declareWinner();
 }
 

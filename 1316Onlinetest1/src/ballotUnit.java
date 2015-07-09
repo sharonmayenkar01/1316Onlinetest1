@@ -20,6 +20,7 @@ public class ballotUnit {
 	
 	public void relaseBallot(){
 		readyLamp readylampBusy=new readyLamp();
+		System.out.println("Ballot released");
 		readylampBusy.setLampState("Busy");
 		System.out.println("Lamp : "+readylampBusy.getLampState());
 	}
