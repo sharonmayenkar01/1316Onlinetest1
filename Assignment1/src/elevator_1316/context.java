@@ -6,6 +6,7 @@ public class context {
 	public context(floor floor) {
 	
 		this.floor = floor;
+		//comment
 	}
 	
 	public floor getState() {
