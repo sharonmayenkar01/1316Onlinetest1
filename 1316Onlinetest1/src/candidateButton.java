@@ -1,7 +1,7 @@
 
 public class candidateButton extends ballotButton {
 //pressed by voter
-	int pra1,ali2,naz3,bin4;
+	int pra1=10,ali2=11,naz3=34,bin4=23;
 	public void castYourVote(){
 		ballotUnit ballotUnit=new ballotUnit();
 	   //select your choice

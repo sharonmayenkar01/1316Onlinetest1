@@ -4,7 +4,7 @@ public class EVM {
 readyLamp readylampOn=new readyLamp();
 ballotUnit ballotUnit=new ballotUnit();
 candidateButton candidateButton=new candidateButton();
-
+totalButton totalButton=new totalButton();
 public void startEVM(){
 	System.out.println("EVM turned on");
 	readylampOn.setLampState("Glowing");
@@ -13,6 +13,7 @@ public void startEVM(){
 	//select your contestant
 	ballotUnit.relaseBallot();
 	candidateButton.castYourVote();
+	System.out.println("Total Voters till now : "+totalButton.getTotalVotes());
 }
 
 public void stopEVM(){
